@@ -4,17 +4,17 @@
   --fontFamily-01: "Open Sans";
   --fontFamily-02: "Roboto";
 
-  --color-primary: rgb(240, 224, 196);
-  --color-secondary: rgb(204, 167, 97);
-  --color-accent: rgb(226, 153, 17);
-  --color-text-01: rgb(44, 39, 30);
-  --color-text-02: rgb(100, 94, 81);
-  --color-text-03: rgb(255, 250, 238);
+  --color-primary: rgb(207, 205, 236);
+  --color-secondary: rgb(52, 174, 196);
+  --color-accent: rgb(24, 1, 78);
+  --color-text-01: rgb(33, 30, 44);
+  --color-text-02: rgb(81, 81, 100);
+  --color-text-03: rgb(242, 238, 255);
 
   --radius-01: 4px;
   --radius-02: 8px;
 
-  --fontSize-nm: 1.4rem;
+  --fontSize-nm: 1.55rem;
   --fontSize-mid: 2rem;
   --fontSize-sm: 1.2rem;
   --fontSize-L: 3rem;
@@ -35,5 +35,12 @@ body {
   margin: 0;
   padding: 0;
   outline: none;
+  text-decoration: none;
+  list-style: none;
   border: 0;
+}
+
+h1,
+h2 {
+  margin-bottom: 2rem;
 }
