@@ -1,5 +1,6 @@
 import React from "react";
 import MeetupItem from "../../components/meetups/MeetupItem";
+import MeetupLists from "../../components/meetups/MeetupLists";
 
 const Dummy_Data = [
   {
@@ -26,17 +27,7 @@ const AllMeetupsPage = () => {
   return (
     <section>
       <h1>All Meetups</h1>
-      <ul>
-        {Dummy_Data.map((meetup) => (
-          <MeetupItem
-            address={meetup.address}
-            key={meetup.id}
-            description={meetup.description}
-            title={meetup.title}
-            image={meetup.image}
-          />
-        ))}
-      </ul>
+      <MeetupLists meetups={Dummy_Data} />
     </section>
   );
 };
