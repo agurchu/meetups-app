@@ -12,7 +12,7 @@ const NewMeetupForm = () => {
         </div>
         <div className={styles.control}>
           <label htmlFor="image">Meetup Image</label>
-          <input type="url" required id="image" />
+          <input type="url" placeholder="https://..." required id="image" />
         </div>
         <div className={styles.control}>
           <label htmlFor="address">Addres</label>
@@ -22,7 +22,7 @@ const NewMeetupForm = () => {
           <label htmlFor="description">Description</label>
           <textarea rows="5" required id="description"></textarea>
         </div>
-        <div className={styles.action}>
+        <div className={styles.actions}>
           <button>Add Meetup</button>
         </div>
       </form>
