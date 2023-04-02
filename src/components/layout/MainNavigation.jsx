@@ -48,6 +48,11 @@ const Header = styled.header`
       font-size: var(--fontSize-nm);
       font-weight: 500;
       letter-spacing: 1px;
+      transition: 0.25s;
+
+      &:hover {
+        color: var(--color-text-03);
+      }
     }
   }
   height: 60px;
