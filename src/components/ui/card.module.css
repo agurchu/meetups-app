@@ -2,5 +2,6 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
   border-radius: var(--radius-02);
   background: white;
-  margin-bottom: 40px;
+  margin: 0 auto 3rem;
+  max-width: 60rem;
 }
